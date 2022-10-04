@@ -2,7 +2,11 @@
   "entityType" : "DEVICE",
   "entity" : {
     "additionalInfo" : {
+<<<<<<< HEAD
       "description" : "Demo device for Thermostats dashboard V4"
+=======
+      "description" : "Demo device for Thermostats dashboard V2"
+>>>>>>> ae321d1 (auto-commit at 2022-10-04T13:40:57Z)
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
@@ -26,8 +30,13 @@
       "entityType" : "DEVICE",
       "id" : "9d831fe0-359c-11ed-b0b3-af57cd1e8d42"
     },
+<<<<<<< HEAD
     "label" : "PowerPlusProcessV10",
     "name" : "Thermostat T2A",
+=======
+    "label" : "PowerPlus",
+    "name" : "Thermostat T2",
+>>>>>>> ae321d1 (auto-commit at 2022-10-04T13:40:57Z)
     "softwareId" : null,
     "type" : "thermostat"
   },
@@ -36,7 +45,6 @@
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
-  "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
       "booleanValue" : false,
