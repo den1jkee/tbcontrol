@@ -2,7 +2,7 @@
   "entityType" : "DEVICE",
   "entity" : {
     "additionalInfo" : {
-      "description" : "Demo device for Thermostats dashboard"
+      "description" : "Demo device for Thermostats dashboard V2"
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
@@ -26,7 +26,7 @@
       "entityType" : "DEVICE",
       "id" : "9d831fe0-359c-11ed-b0b3-af57cd1e8d42"
     },
-    "label" : null,
+    "label" : "PowerPlus",
     "name" : "Thermostat T2",
     "softwareId" : null,
     "type" : "thermostat"
@@ -36,7 +36,6 @@
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
-  "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
       "booleanValue" : false,
