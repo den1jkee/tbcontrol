@@ -28,7 +28,7 @@
     },
     "label" : "ArduinoV3nano",
     "name" : "Thermostat T1000",
-    "softwareId" : "0.11",
+    "softwareId" : null,
     "type" : "thermostat"
   },
   "credentials" : {
