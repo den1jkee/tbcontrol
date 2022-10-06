@@ -26,7 +26,7 @@
     },
     "label" : null,
     "name" : "Test Device A1_51022",
-    "softwareId" : "1.01",
+    "softwareId" : null,
     "type" : "default"
   },
   "credentials" : {
