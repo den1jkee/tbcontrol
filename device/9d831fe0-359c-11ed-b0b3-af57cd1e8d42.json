@@ -1,10 +1,12 @@
 {
   "entityType" : "DEVICE",
   "entity" : {
-    "additionalInfo" : null,
+    "additionalInfo" : {
+      "description" : "Demo device for Thermostats dashboard V2.1F0510"
+    },
     "customerId" : {
       "entityType" : "CUSTOMER",
-      "id" : "9d3f8730-359c-11ed-b0b3-af57cd1e8d42"
+      "id" : "9d421f40-359c-11ed-b0b3-af57cd1e8d42"
     },
     "deviceData" : {
       "configuration" : {
@@ -16,36 +18,31 @@
     },
     "deviceProfileId" : {
       "entityType" : "DEVICE_PROFILE",
-      "id" : "9d0934f0-359c-11ed-b0b3-af57cd1e8d42"
+      "id" : "9d7feb90-359c-11ed-b0b3-af57cd1e8d42"
     },
     "externalId" : null,
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "9d6fe600-359c-11ed-b0b3-af57cd1e8d42"
+      "id" : "9d831fe0-359c-11ed-b0b3-af57cd1e8d42"
     },
-    "label" : null,
-<<<<<<< HEAD
-    "name" : "Test Device A1V2023",
-=======
-    "name" : "Test Device A051022",
->>>>>>> b9d7a19 ( On branch dev)
-    "softwareId" : null,
-    "type" : "default"
+    "label" : "ArduinoV3nano",
+    "name" : "Thermostat T1000",
+    "softwareId" : "0.11",
+    "type" : "thermostat"
   },
   "credentials" : {
-    "credentialsId" : "A1_TEST_TOKEN",
+    "credentialsId" : "T2_TEST_TOKEN",
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
-  "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
       "booleanValue" : false,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1663318853823,
+      "lastUpdateTs" : 1663318853128,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -53,7 +50,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1663318853123,
+      "lastUpdateTs" : 1663318853218,
       "longValue" : 1663318853013,
       "strValue" : null
     } ],
