@@ -25,7 +25,7 @@
       "id" : "9d6fe600-359c-11ed-b0b3-af57cd1e8d42"
     },
     "label" : null,
-    "name" : "Test Device A1_51022",
+    "name" : "Test Device A051022_fix",
     "softwareId" : null,
     "type" : "default"
   },
@@ -41,7 +41,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1663318853823,
+      "lastUpdateTs" : 1663318893823,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -49,7 +49,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1663318853123,
+      "lastUpdateTs" : 1663318893123,
       "longValue" : 1663318853013,
       "strValue" : null
     } ],

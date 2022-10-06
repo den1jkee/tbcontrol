@@ -2,7 +2,7 @@
   "entityType" : "DEVICE",
   "entity" : {
     "additionalInfo" : {
-      "description" : "Demo device that is used in sample applications that upload data from DHT11 temperature and humidity sensor"
+      "description" : "Demo device that is used in sample applications that upload data from DHT11 temperature and humidity sensor with git commit and restore on TB"
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
@@ -24,10 +24,10 @@
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "9d7c6920-359c-11ed-b0b3-af57cd1e8d42"
+      "id" : "9d7c6920-359c-11ed-b0b3-af57cd1e8d44"
     },
     "label" : null,
-    "name" : "DHT11 Demo Device",
+    "name" : "DHT11 New Demo Device ALPHA",
     "softwareId" : null,
     "type" : "default"
   },
