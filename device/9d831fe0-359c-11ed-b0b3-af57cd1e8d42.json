@@ -2,7 +2,7 @@
   "entityType" : "DEVICE",
   "entity" : {
     "additionalInfo" : {
-      "description" : "Demo device for Thermostats dashboard V2.1F0510"
+     "description" : "Demo device for Thermostats dashboard V2.1F0510"
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
@@ -26,6 +26,7 @@
       "entityType" : "DEVICE",
       "id" : "9d831fe0-359c-11ed-b0b3-af57cd1e8d42"
     },
+
     "label" : "ArduinoV3nano",
     "name" : "Thermostat T1000",
     "softwareId" : null,
