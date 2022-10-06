@@ -1,0 +1,28 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : null,
+    "address" : null,
+    "address2" : null,
+    "city" : null,
+    "country" : null,
+    "email" : null,
+    "externalId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "9d421f40-359c-11ed-b0b3-af57cd1e8d42"
+    },
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "9d421f40-359c-11ed-b0b3-af57cd1e8d42"
+    },
+    "name" : "Customer B",
+    "phone" : null,
+    "state" : null,
+    "title" : "Customer B",
+    "zip" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
