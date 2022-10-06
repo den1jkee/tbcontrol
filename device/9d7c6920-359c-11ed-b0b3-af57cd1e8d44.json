@@ -24,7 +24,7 @@
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "9d7c6920-359c-11ed-b0b3-af57cd1e8d42"
+      "id" : "9d7c6920-359c-11ed-b0b3-af57cd1e8d44"
     },
     "label" : null,
     "name" : "DHT11 New Demo Device ALPHA",
