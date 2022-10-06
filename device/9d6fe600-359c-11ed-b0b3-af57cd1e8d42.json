@@ -25,12 +25,8 @@
       "id" : "9d6fe600-359c-11ed-b0b3-af57cd1e8d42"
     },
     "label" : null,
-<<<<<<< HEAD
-    "name" : "Test Device A1V2023",
-=======
-    "name" : "Test Device A051022",
->>>>>>> b9d7a19 ( On branch dev)
-    "softwareId" : null,
+    "name" : "Test Device A1_51022",
+    "softwareId" : "1.01",
     "type" : "default"
   },
   "credentials" : {
