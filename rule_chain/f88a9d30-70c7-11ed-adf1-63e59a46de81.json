@@ -125,7 +125,56 @@
       "name" : "Message Type Switch",
       "ruleChainId" : null,
       "type" : "org.thingsboard.rule.engine.filter.TbMsgTypeSwitchNode"
-    }, {
+    }, 
+                 }, 
+      "type": "org.thingsboard.rule.engine.action.TbClearAlarmNode",
+        "name": "Clear alarm",
+        "debugMode": true,
+        "configuration": {
+          "alarmDetailsBuildJs": "var details = {};\nif (metadata.prevAlarmDetails) {\n    details = JSON.parse(metadata.prevAlarmDetails);\n    //remove prevAlarmDetails from metadata\n    //delete metadata.prevAlarmDetails;\n    //now metadata is the same as it comes IN this rule node\n}\n\n\nreturn details;",
+          "alarmType": "General Alarm"
+        },
+        "externalId": null
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 327,
+          "layoutY": 501
+        },
+        "type": "org.thingsboard.rule.engine.transform.TbTransformMsgNode",
+        "name": "TEST",
+        "debugMode": true,
+        "configuration": {
+          "jsScript": "var newMsg ={}\nnewMsg[\"alarmDetails\"] = msg.details;\n\nreturn {msg: newMsg, metadata: metadata, msgType: \"POST_ATTRIBUTES_REQUEST\"};"
+        },
+        "externalId": null
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 359,
+          "layoutY": 375
+        },
+        "type": "org.thingsboard.rule.engine.action.TbCreateAlarmNode",
+        "name": "Create",
+        "debugMode": true,
+        "configuration": {
+          "alarmDetailsBuildJs": "var details = msg.details;\nif (metadata.prevAlarmDetails) {\n    details = JSON.parse(metadata.prevAlarmDetails);\n    //remove prevAlarmDetails from metadata\n   // delete metadata.prevAlarmDetails;\n    //now metadata is the same as it comes IN this rule node\n}\n\n\nreturn details;",
+          "useMessageAlarmData": false,
+          "overwriteAlarmDetails": false,
+          "alarmType": "General Alarm",
+          "severity": "CRITICAL",
+          "propagate": false,
+          "relationTypes": [],
+          "propagateToOwner": false,
+          "propagateToOwnerHierarchy": false,
+          "propagateToTenant": false,
+          "dynamicSeverity": false
+        },
+        "externalId": null
+      },
+               {
       "additionalInfo" : {
         "layoutX" : 1000,
         "layoutY" : 381
