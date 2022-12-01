@@ -14,13 +14,13 @@
       "entityType" : "CUSTOMER",
       "id" : "f8aa3320-70c7-11ed-adf1-63e59a46de81"
     },
-    "name" : "Customer AC",
+    "name" : "Customer A",
     "ownerId" : null,
     "parentCustomerId" : null,
     "phone" : null,
     "state" : null,
     "tenantId" : null,
-    "title" : "Customer AC",
+    "title" : "Customer A",
     "zip" : null
   },
   "relations" : [ ],
@@ -30,7 +30,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "whiteLabelParams",
-      "lastUpdateTs" : 1669892936495,
+      "lastUpdateTs" : 1669892936485,
       "longValue" : null,
       "strValue" : "{\"logoImageUrl\":\"\",\"logoImageChecksum\":null,\"logoImageHeight\":null,\"appTitle\":null,\"favicon\":null,\"faviconChecksum\":null,\"paletteSettings\":null,\"helpLinkBaseUrl\":null,\"uiHelpBaseUrl\":null,\"enableHelpLinks\":null,\"whiteLabelingEnabled\":true,\"showNameVersion\":null,\"platformName\":null,\"platformVersion\":null,\"customCss\":null}"
     } ]
